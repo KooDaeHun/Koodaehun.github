@@ -74,7 +74,7 @@
            
             <!-- 깃허브 로고 아이콘 -->
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://github.com/">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -83,12 +83,14 @@
             </li>
             <!-- 새로 만든 1번 버튼 -->
             <li class="list-inline-item">
-              <button onclick="alert('night');">night</button>
+              <button onclick="document.querySelector('body').style.backgroundColor='black';
+                               document.querySelector('body').style.color='white';">night</button> 
             </li>
 
             <!-- 2번 버튼 -->
             <li class="list-inline-item">
-              <button onclick="alert('day')">day</button>
+              <button onclick="document.querySelector('body').style.backgroundColor='white';
+                               document.querySelector('body').style.color='#868e96';">day</button>
             </li>
 
           </ul>
